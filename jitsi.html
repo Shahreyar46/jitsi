@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src='https://8x8.vc/vpaas-magic-cookie-54155bb7a4df4887ad949cdeb284e58f/external_api.js' async></script>
+    <style>html, body, #jaas-container { height: 100%; }</style>
+    <script type="text/javascript">
+      window.onload = () => {
+        const api = new JitsiMeetExternalAPI("8x8.vc", {
+          roomName: "vpaas-magic-cookie-54155bb7a4df4887ad949cdeb284e58f/SampleAppDynamicJusticesChopEfficiently",
+          parentNode: document.querySelector('#jaas-container'),
+          userInfo: {
+            displayName: '',
+            email: 'email@jitsiexamplemail.com',
+        },
+        });
+      }
+    </script>
+  </head>
+  <body><div id="jaas-container" /></body>
+</html>
